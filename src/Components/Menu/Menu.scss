@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .li {
+    @apply flex h-12 cursor-pointer pr-8 text-center hover:bg-white rounded-l-xl transition-all;
+  }
+  .text {
+    @apply mr-4 text-white self-center;
+  }
+  svg{
+    @apply self-center fill-fuchsia-700;
+  }
+  .li:hover {
+    .text {
+      @apply text-SecondaryColor;
+    }
+    svg path{
+      @apply fill-SecondaryColor;
+    }
+  }
+}

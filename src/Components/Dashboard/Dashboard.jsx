@@ -3,6 +3,7 @@ import React from "react";
 //Components
 import Charts from "./Charts/Charts";
 import Tests from "./Tests";
+import SideBar from "./SideBar/SideBar";
 
 //Icons
 import handIcon from "../../assets/SVG/hand.svg";
@@ -39,8 +40,8 @@ const Dashboard = () => {
           <Tests/>
         </section>
       </div>
-      <div className="w-full">
-        {/* <BarChart/> */}
+      <div className="w-full bg-[#f9f9f9] ">
+        <SideBar/>
       </div>
     </div>
   );

@@ -2,17 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Vazir-normal';
+  src: url('./assets/font/vazir-font-v16.1.0/Vazir.eot');
+  src: url('./assets/font/vazir-font-v16.1.0/Vazir.eot?#iefix') format('embedded-opentype'),
+       url('./assets/font/vazir-font-v16.1.0/Vazir.woff') format('woff'),
+       url('./assets/font/vazir-font-v16.1.0/Vazir.ttf') format('truetype');
+  font-weight: normal;
+}
+*{
+  font-family: 'Vazir-normal';
+}
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 12px;
 }
 
 *::-webkit-scrollbar-track {
-  background: #b3b3b3;
+  background: #bbbbbb;
   border-radius: 5px;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #696868;
-  border-radius: 14px;
+  background-color: #848484;
+  border-radius: 10px;
 }

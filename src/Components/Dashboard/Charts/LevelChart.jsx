@@ -33,7 +33,7 @@ export const data = {
 };
 const LevelChart = () => {
   return (
-    <div className="w-[440px] h-52 bg-white p-4 rounded-lg shadow-lg mt-4">
+    <div className="w-[440px] h-[250px] bg-white p-3 rounded-lg shadow-lg mt-4">
       <p>نمودار رشد تراز</p>
       <Line data={data} />
     </div>

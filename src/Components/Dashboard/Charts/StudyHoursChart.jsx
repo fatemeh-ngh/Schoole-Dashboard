@@ -46,7 +46,7 @@ const data = {
 };
 const StudyHoursChart = () => {
   return (
-    <div className="w-[440px] h-52 bg-white rounded-lg p-4 mt-4 shadow-lg">
+    <div className="w-[440px] h-[250px] bg-white rounded-lg p-3 mt-4 shadow-lg">
       <div className="flex justify-between">
         <p>نمودار ساعات مطالعه</p>
         <p>هفته اول بهمن</p>

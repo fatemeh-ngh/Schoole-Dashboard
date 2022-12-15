@@ -17,7 +17,7 @@ const Dashboard = () => {
       <div className="bg-[#f9f9f9] rounded-r-[35px]">
         <nav className="flex mt-4 mx-8 w-[900px] justify-between">
           <div className="flex">
-            <p>سلام شيما خوش آمدی!</p>
+            <p className="self-center">سلام شيما خوش آمدی!</p>
             <img className="w-8 h-8" src={handIcon} alt="handIcon" />
           </div>
           <div className="flex w-[450px] px-2 h-8 bg-white rounded-lg shadow-md">
